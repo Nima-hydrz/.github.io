@@ -435,7 +435,7 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
@@ -698,7 +698,7 @@ section {
     }
 
     .skills-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skill-items {
@@ -740,6 +740,10 @@ section {
 
     .profile-image i {
         font-size: 5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
     }
 }
 
