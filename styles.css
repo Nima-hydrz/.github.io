@@ -492,6 +492,35 @@ section {
     color: var(--text-primary);
 }
 
+.skill-item-group {
+    display: flex;
+    gap: 0.5rem;
+    background: var(--skill-bg);
+    border-radius: 8px;
+    padding: 0.8rem 0.5rem;
+    transition: background 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.skill-item-group:hover {
+    background: var(--skill-hover);
+}
+
+.skill-item-group .skill-item {
+    flex: 1;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    transition: none;
+}
+
+.skill-item-group .skill-item:hover {
+    background: transparent;
+    transform: none;
+}
+
 /* Projects Section */
 .projects {
     background: var(--bg-secondary);

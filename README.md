@@ -77,7 +77,7 @@ A modern and responsive portfolio website to showcase your skills, projects, and
 
 ```html
 <!-- Email -->
-<p>your.email@example.com</p>
+<p>nima.hydrz@googlemail.com</p>
 
 <!-- Phone -->
 <p>+1 (555) 123-4567</p>
